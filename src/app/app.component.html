@@ -1,0 +1,7 @@
+<div id="main">
+  <div id="box">
+    <h1 id="heading">Todo App</h1>
+    <app-form (childEvent)="getFormData($event)"></app-form>
+    <app-todo [todo]="todoValue" (childEvent)="checkboxChanged($event)"></app-todo>
+  </div>
+</div>

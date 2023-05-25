@@ -1,0 +1,23 @@
+#main{
+    background-color: rgba(69, 69, 224, 0.774);
+    height: 100vh;
+    color: azure;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#box{
+    -webkit-backdrop-filter: blur(18px) saturate(200%);
+    backdrop-filter: blur(18px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+#heading{
+    font-size: 60px;
+    padding-bottom: 20px;
+}

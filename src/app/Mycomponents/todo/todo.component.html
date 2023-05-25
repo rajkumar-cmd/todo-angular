@@ -1,0 +1,20 @@
+<div>
+  <ul>
+    <li class="listElement">
+      <h1>Sl.No.</h1>
+      <h1>Items</h1>
+      <h1>Status</h1>
+    </li>
+  </ul>
+  <ul *ngFor="let todoElement of todo">
+    <li class="listElement">
+      <h1>{{todoElement.sNo}}</h1>
+      <h1>{{todoElement.todoText}}</h1>
+      <div *ngIf="!todoElement.isComplete">
+        <p>Mark if completed</p>
+        <input class="marker" placeholder="Check Complete" type="checkbox" (change)="checkboxChanged(todoElement.sNo)">
+      </div>
+      <h1 *ngIf="todoElement.isComplete">Done</h1>
+    </li>
+  </ul>
+</div>

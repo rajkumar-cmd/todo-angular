@@ -1,0 +1,21 @@
+.listElement{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.listElement>h1{
+    width: 20%;
+}
+.listElement>div{
+    width: 20%;
+}
+@media only screen and (max-width: 700px) {
+    .listElement{
+        padding: 1rem;
+    }
+    .listElement>h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
